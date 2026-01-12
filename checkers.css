@@ -1,6 +1,6 @@
 .cell {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     display: inline-block;
     border: 1px solid black;
     box-sizing: border-box;
@@ -13,8 +13,21 @@
 .board {
     display: flex;
     flex-wrap: wrap;
-    width: 300px; /* 3 cells * 100px + 2 * 3px margin */
-    height: 300px; /* 3 cells * 100px + 2 * 3px margin */
+    width: 600px;
+    height: 600px;
     margin: auto;
     box-sizing: border-box;
+}
+
+.empty-cell {
+    background-color: beige;
+    width: 75px;
+    height: 75px;
+    display: inline-block;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 0px, 0px, 0px, 0px;
+    text-align: center;
+    font-size: 100px;
+    line-height: 100px;
 }
